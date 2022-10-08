@@ -1,3 +1,4 @@
+import { init } from './js/chistes-page';
 import { obtenerChiste } from './js/http-provider';
 
 // const jokeUrl = 'https://api.chucknorris.io/jokes/random';
@@ -22,4 +23,6 @@ import { obtenerChiste } from './js/http-provider';
 //         console.log(id,value);
 //     });
 
-obtenerChiste().then(console.log);
+//obtenerChiste().then(console.log);
+
+init();
