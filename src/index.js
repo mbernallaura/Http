@@ -1,5 +1,5 @@
 import { init } from './js/chistes-page';
-import { obtenerChiste } from './js/http-provider';
+import { obtenerChiste,obtenerUsuarios } from './js/http-provider';
 
 // const jokeUrl = 'https://api.chucknorris.io/jokes/random';
 //*Errores que se pueden generar en http:
@@ -24,5 +24,5 @@ import { obtenerChiste } from './js/http-provider';
 //     });
 
 //obtenerChiste().then(console.log);
-
-init();
+//init();
+obtenerUsuarios().then(console.log)
