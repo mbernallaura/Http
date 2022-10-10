@@ -1,6 +1,7 @@
 //import { init } from './js/chistes-page';
 import { obtenerChiste,obtenerUsuarios } from './js/http-provider';
 import { init } from './js/usuarios-page';
+import * as CRUD from './js/crud-provider';
 
 // const jokeUrl = 'https://api.chucknorris.io/jokes/random';
 //*Errores que se pueden generar en http:
@@ -26,7 +27,7 @@ import { init } from './js/usuarios-page';
 
 //obtenerChiste().then(console.log);
 //init();
-obtenerUsuarios().then(console.log);
-init();
-
+//obtenerUsuarios().then(console.log);
+//init();
+CRUD.getUsuario(1).then(console.log);
 
