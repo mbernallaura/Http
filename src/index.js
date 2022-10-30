@@ -1,7 +1,8 @@
 //import { init } from './js/chistes-page';
 import { obtenerChiste,obtenerUsuarios } from './js/http-provider';
-import { init } from './js/usuarios-page';
-import * as CRUD from './js/crud-provider';
+//import { init } from './js/usuarios-page';
+//import * as CRUD from './js/crud-provider';
+import { init } from './js/archivos-page'
 
 // const jokeUrl = 'https://api.chucknorris.io/jokes/random';
 //*Errores que se pueden generar en http:
@@ -40,5 +41,7 @@ import * as CRUD from './js/crud-provider';
 //     jod: 'Programadora'
 // }).then(console.log);
 
-CRUD.borrarUsuario(1).then(console.log);
+//CRUD.borrarUsuario(1).then(console.log);
+
+init();
 
